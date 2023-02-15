@@ -1,28 +1,31 @@
-function Tenis(tamanho, estoque, preco) {
+
+function Tenis (tamanho, estoque, preco) {
+  
   return {
     tamanho,
     estoque,
-    preco,
+    preco: preco,
+
   };
 }
+console.log(Tenis(41, true, "R$ 40,00"));
 
-console.log(Tenis(35, true, "R$ 35"));
-
-const tamanho = 35;
+const tamanho = 41;
 const estoque = true;
-const preco = "R$ 35";
+const preco = "R$ 40";
 
 const Tenis2 = {
   tamanho,
   estoque,
   preco,
 };
-
 console.log(Tenis2);
+
+// Métodos
 
 const Tenis3 = {
   getTamanho() {
-    return 35;
+    return 41;
   },
 };
 
