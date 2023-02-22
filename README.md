@@ -1,5 +1,7 @@
 # Curso JavaScript
 
+- Curso complementar de JavaScript
+
 ## 001 - Introdução
 
 ## 002 - Tipos Primitivos
